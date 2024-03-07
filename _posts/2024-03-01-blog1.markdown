@@ -2,7 +2,6 @@
 layout: post
 title:  "Simple Dependency Injection in Scala"
 date:   2024-03-01 00:00:00 -0800
-categories: scala one
 ---
 # Dependency Injection Template
 
@@ -82,4 +81,4 @@ val testRegistry = new RegistryDefault:
 Here we only override the PersonRestClient and the stub will get injected within PersonServiceDefault because lazy val delays the initialization.
 So now in the test when we call `personService.save(...)` it delegate to the person client rest stub.
 
-Please see code for details https://github.com/FasterThanLightTech/scala-tachyons/tree/dependency-injection-template
+[Please see code for details](https://github.com/FasterThanLightTech/scala-tachyons/tree/dependency-injection-template)
