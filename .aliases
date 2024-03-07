@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+function run {
+  bundle exec jekyll serve --livereload
+}
