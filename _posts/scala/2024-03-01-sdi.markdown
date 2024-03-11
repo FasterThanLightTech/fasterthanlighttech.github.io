@@ -2,8 +2,9 @@
 layout: post
 title:  "Simple Dependency Injection in Scala"
 date:   2024-03-01 00:00:00 -0800
+tags: [ "scala", "design" ]
+categories: [ "scala", "design" ] 
 ---
-# Dependency Injection Template
 
 In this article we will take a look at how to implement simple dependency injection in scala.
 * We want an approach the externalize the management of dependencies.
